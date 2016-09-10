@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/************************************
+** 基本設定（General Setting）
+************************************/
+html{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box; !important;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+ul li, ol li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  border-width:0px;
+}
+
+body {
+  font-size:1em;
+  font-size: 14px;
+  color: #5f5d60;
+  font-family: "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo, "MS PGothic", sans-serif;
+  width: 100%;
+  background-color: #f9fbfe;
+  box-sizing: border-box;
+}
+p{
+  line-height: 1.7em;
+}
+.min{
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, serif, sans-serif;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+* html .clearfix {
+  height: 1px;
+}
+
+
+a:hover{
+  cursor: pointer;
+  transition: all  0.3s ease;
+}
+.wrap{
+  width: 1020px;
+  margin: 0 auto;
+
+}
+.center{
+  text-align: center;
+  height: auto;
+}
+.floatbox{
+  float: left;
+}
+.two{
+  width: 485px;
+  margin-right: 60px;
+}
+.two:nth-child(2n+1){
+  margin-right: 0;
+}
+.three{
+  width: 330px;
+  margin-right: 15px;
+}
+.three:nth-child(3n+1){
+  margin-right: 0;
+}
+
+img.link {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+a:hover img.link {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/************************************
+** 見出し設定（General Setting）
+************************************/
+h1{
+  margin: 0;
+  padding-top: 20px;
+}
+h2{
+  padding-top: 40px;
+  margin: 0 auto 45px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2b546a;
+}
+h2.small{
+  font-size: 40px;
+  color: #fff;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+h3{
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+/************************************
+** セクション設定（section Setting）
+************************************/
+header{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(160,166,179,0.3);
+  line-height: 48px;
+  max-height: 48px;
+  text-align: center;
+
+}
+footer{
+  display: block;
+  width: 100%;
+  background-color: #2b546a;
+  margin-top: 60px;
+  height: 48px;
+}
+.header_logo{
+  display: inline-block;
+}
+.header_logo h1{
+  float: left;
+  line-height: 48px;
+  padding-top: 0;
+  margin-right: 20px;
+  color: #2b546a;
+}
+.header_logo span{
+  float: left;
+  color: #417d9e;
+  font-size: 12px;
+}
+.requre-tag{
+  color: #ec5268;
+  font-size: 12px;
+  margin-right: 20px;
+}
+input[type="text"]{
+  height: 40px;
+  width: 40em;
+  padding-left: 20px;
+  font-size: 14px;
+  border: none;
+  box-shadow: inset 0px -1px 1px 0px #e3e3e3;
+}
+.skill-set-box{
+  border: 1px solid #d9e0e7;
+  background: #fff;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+input[type="checkbox"]{
+  display: none;
+}
+input.view[type="checkbox"]{
+  display: inherit;;;
+}
+
+.parent-name{
+  margin-bottom: 20px;
+}
+.inner-parent-small{
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d9e0e7;
+  border-radius: 3px;
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.inner-child{
+  float: left;
+}
+
+.child-label{
+  display: block;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #d9e0e7;
+  border-radius: 3px;
+  width: 224px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.child-label:hover{
+  background-color: #e9ebee;
+  transition: all  0.3s ease;
+  cursor: pointer;
+}
+.child-label:nth-child(4n){
+  margin-right: 0;
+}
+
+.checked{
+  background-color: #e9ebee;
+}
+
+.button{
+  background: #2abc8f;
+  color: #fff;
+  width: 40em;
+  padding: 20px 0;
+  margin: 40px  auto 0;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #1e8a69;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: #1e8a69;
+  transition: all  0.3s ease;
+}
+@media screen and (max-width: 480px) {
+
+}

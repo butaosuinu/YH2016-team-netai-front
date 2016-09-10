@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>SKILL GRAPH｜かんたんにスキルを見える化</title>
+
+  <meta name="viewport" content="width=1200px, user-scalable=yes,">
+
+<!--[if IE]>
+<link href="design.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+
+
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="reset.css" type="text/css" media="screen">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" >
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header_logo">
+      <h1>SKILL GRAPH</h1>
+      <span>かんたんにスキルを見える化</span>
+    </div>
+  </header>
+
+  <h2>「湯けむりハッカソン」スキル入力</h2>
+  <div class="wrap center">
+    <h3 class="clearfix"><span class="requre-tag">必須</span>名前を入力</h3>
+    <input type="text" placeholder="名前を入力">
+
+    <h3>スキルを入力</h3>
+
+    <div class="skill-set-box">
+
+      <div class="parent-box">
+        <div class="parent-name">
+          <label class="parent-label" for="radio_id1">
+            <input type="checkbox" id="radio_id1" class="view"/>
+          性格
+          </label>
+        </div>
+
+        <div class="child-label-wrap clearfix">
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_02">意見をまとめる</label>
+            <input type="checkbox" id="radio_id_02" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_03">作業を割振る</label>
+            <input type="checkbox" id="radio_id_03" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_04">発表資料を作れる</label>
+            <input type="checkbox" id="radio_id_04" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_05">発表できる</label>
+            <input type="checkbox" id="radio_id_05" />
+          </div>
+
+        </div><!-- /.child-label-wrap -->
+      </div><!-- /.parent-box -->
+    </div><!-- /.skill-set-box -->
+
+    <div class="skill-set-box">
+
+      <div class="parent-box">
+        <div class="parent-name">
+          <label class="parent-label" for="radio_id1">
+            <input type="checkbox" id="radio_id_002" class="view"/>
+          デザイン
+          </label>
+        </div>
+
+        <div class="child-label-wrap clearfix">
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_06">ワイヤーフレームが作れる</label>
+            <input type="checkbox" id="radio_id_06" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_07">ロゴが描ける</label>
+            <input type="checkbox" id="radio_id_07" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_08">配色を作れる</label>
+            <input type="checkbox" id="radio_id_08" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_09">絵がかける</label>
+            <input type="checkbox" id="radio_id_09" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_10">CSSが書ける</label>
+            <input type="checkbox" id="radio_id_10" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_11">Bootstrapが使える</label>
+            <input type="checkbox" id="radio_id_11" />
+          </div>
+
+        </div><!-- /.child-label-wrap -->
+      </div><!-- /.parent-box -->
+    </div><!-- /.skill-set-box -->
+
+    <div class="skill-set-box">
+      <div class="parent-box">
+        <div class="parent-name">
+          <label class="parent-label" for="radio_id1">
+            <input type="checkbox" id="radio_id_003" class="view"/>
+          フロントエンド
+          </label>
+        </div>
+
+        <div class="child-label-wrap clearfix">
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_12">HTMLが書ける</label>
+            <input type="checkbox" id="radio_id_12" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_13">フレームワークが使える</label>
+            <input type="checkbox" id="radio_id_13" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_14">jqueryが使える</label>
+            <input type="checkbox" id="radio_id_14" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_14">jsが使える</label>
+            <input type="checkbox" id="radio_id_15" />
+          </div>
+
+        </div><!-- /.child-label-wrap -->
+      </div><!-- /.parent-box -->
+    </div><!-- /.skill-set-box -->
+
+    <div class="skill-set-box">
+      <div class="parent-box">
+        <div class="parent-name">
+          <label class="parent-label" for="radio_id1">
+            <input type="checkbox" id="radio_id_004" class="view"/>
+          バックエンド
+          </label>
+        </div>
+
+        <div class="child-label-wrap clearfix">
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_16">mysqlが使える</label>
+            <input type="checkbox" id="radio_id_16" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_17">Nosqlが使える</label>
+            <input type="checkbox" id="radio_id_17" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_18">APIを実装できる</label>
+            <input type="checkbox" id="radio_id_18" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_19">外部APIを使える</label>
+            <input type="checkbox" id="radio_id_19" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_20">リアルタイム通信を使える</label>
+            <input type="checkbox" id="radio_id_20" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_21">フレームワークを使える</label>
+            <input type="checkbox" id="radio_id_21" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_22">Dockerが使える</label>
+            <input type="checkbox" id="radio_id_22" />
+          </div>
+
+          <div class="inner-child">
+            <label class="child-label" for="radio_id_23">サーバーのセットアップ</label>
+            <input type="checkbox" id="radio_id_23" />
+          </div>
+
+
+
+        </div><!-- /.child-label-wrap -->
+      </div><!-- /.parent-box -->
+    </div><!-- /.skill-set-box -->
+
+
+    <div class="button">
+      <a href="#">スキルを送信</a>
+    </div><!-- /.button -->
+
+  </div><!-- //.wrap -->
+
+  <footer>
+  </footer>
+
+
+
+</body>
+<script>
+$(function(){
+    //checkedだったら最初からチェックする
+    $('div.skill-set-box input').each(function(){
+        if ($(this).attr('checked') == 'checked') {
+            $(this).next().addClass('checked');
+
+        }
+    });
+    //クリックした要素にクラス割り当てる
+    $('div.skill-set-box label').click(function(){
+        if ($(this).hasClass('checked')) {
+            $(this)
+                .removeClass('checked')
+                .prev('input').removeAttr('checked');
+        } else {
+            $(this)
+                .addClass('checked')
+                .prev('input').attr('checked','checked');
+        }
+    });
+});
+</script>
+
+<script>
+$(function(){
+    //クリックした要素にクラス割り当てる
+    $('.parent-label').click(function(){
+        if ($(this).hasClass('parent-checked')) {
+            $(this)
+                .removeClass('parent-checked')
+                .prev('input').removeAttr('parent-checked');
+        } else {
+            $(this)
+                .addClass('parent-checked')
+                .prev('input').attr('parent-checked','parent-checked');
+        }
+    });
+});
+</script>
+
+<!-- 全選択やってねごめんね -->
+</html>

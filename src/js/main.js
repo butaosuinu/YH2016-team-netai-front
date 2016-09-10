@@ -26,6 +26,7 @@ riot.router.routes([
 		new Route({path: 'create', tag: 'event-create'}),
 		new Route({path: 'complete', tag: 'event-complete'}),
 		new Route({path: 'view/:id', tag: 'event-view'}),
+		new Route({path: 'view/add-member/:id', tag: 'event-add-member'}),
 		new NotFoundRoute({path: '404', tag: 'event-notfound'})
 	]),
 	new NotFoundRoute({path: '404', tag: 'not-found'})

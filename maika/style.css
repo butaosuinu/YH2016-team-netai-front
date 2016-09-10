@@ -253,6 +253,17 @@ input.view[type="checkbox"]{
   content: "\f040";
 
 }
+.background-image{
+  background-image: url(images/main_bg.jpg);
+  height:324px;
+  text-align: center;
+}
+.background-image p{
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 100px;
+  font-size: 32px;
+}
 @media screen and (max-width: 480px) {
 
 }

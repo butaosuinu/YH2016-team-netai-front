@@ -1,4 +1,4 @@
-const $    = require('jquery');
+$    = require('jquery');
 const riot = require('riot');
 
 // tags

@@ -5,10 +5,11 @@ var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 module.exports = {
 	entry: {
 		main: './src/js/main.js',
+		apiService: './src/js/apiService.js',
 	},
 	output: {
-		path: __dirname + '/assets/js',
-		filename: 'bundle.js'
+		path: './assets/js',
+		filename: '[name].js'
 	},
 	plugins: [
 		new webpack.ProvidePlugin({ riot: 'riot' }),

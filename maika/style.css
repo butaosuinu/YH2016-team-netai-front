@@ -232,7 +232,7 @@ input.view[type="checkbox"]{
   width: 40em;
   padding: 20px 0;
   margin: 40px  auto 0;
-  border-radius: 3px;
+  border-radius: 5px;
   text-shadow: 1px 1px 1px #1e8a69;
 }
 
@@ -240,6 +240,18 @@ input.view[type="checkbox"]{
   cursor: pointer;
   background-color: #1e8a69;
   transition: all  0.3s ease;
+}
+
+.edit-link{
+  font-size: 12px;
+  text-decoration: underline;
+  color: #417d9e;
+  margin-left: 20px;
+}
+.edit-link:before{
+  font-family: FontAwesome;
+  content: "\f040";
+
 }
 @media screen and (max-width: 480px) {
 

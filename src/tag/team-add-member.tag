@@ -1,10 +1,10 @@
-<event-add-member>
+<team-add-member>
 	<script type="babel">
 		
 	</script>
 	<style type="css">
-		event-add-member{
+		team-add-member{
 			
 		}
 	</style>
-</event-add-member>
+</team-add-member>

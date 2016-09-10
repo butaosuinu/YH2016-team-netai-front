@@ -1,3 +1,3 @@
-<event>
+<team>
 	<route></route>
-</event>
+</team>

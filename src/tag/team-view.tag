@@ -1,10 +1,10 @@
-<event-view>
+<team-view>
 	<script type="babel">
 		
 	</script>
 	<style type="css">
-		event-view{
+		team-view{
 			
 		}
 	</style>
-</event-view>
+</team-view>

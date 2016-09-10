@@ -3,12 +3,11 @@ const riot = require('riot');
 
 // tags
 require('../tag/app.tag');
-require('../tag/view.tag');
-require('../tag/event.tag');
-require('../tag/event-complete.tag');
-require('../tag/event-create.tag');
-require('../tag/event-notfound.tag');
-require('../tag/event-view.tag');
+require('../tag/team.tag');
+require('../tag/team-complete.tag');
+require('../tag/team-create.tag');
+require('../tag/team-notfound.tag');
+require('../tag/team-view.tag');
 require('../tag/not-found.tag');
 
 // routing
@@ -20,14 +19,14 @@ const RedirectRoute = riot.router.RedirectRoute;
 
 riot.router.routes([
 	new DefaultRoute({tag: 'app'}),
-	new Route({path: 'event', tag: 'event'}).routes([
-		new DefaultRoute({tag: 'event-notfound'}),
-		new Route({path: 'view', tag: 'event-view'}),
-		new Route({path: 'create', tag: 'event-create'}),
-		new Route({path: 'complete', tag: 'event-complete'}),
-		new Route({path: 'view/:id', tag: 'event-view'}),
-		new Route({path: 'add-member/:id', tag: 'event-add-member'}),
-		new NotFoundRoute({path: '404', tag: 'event-notfound'})
+	new Route({path: 'team', tag: 'team'}).routes([
+		new DefaultRoute({tag: 'team-notfound'}),
+		new Route({path: 'view', tag: 'team-view'}),
+		new Route({path: 'create', tag: 'team-create'}),
+		new Route({path: 'complete', tag: 'team-complete'}),
+		new Route({path: 'view/:id', tag: 'team-view'}),
+		new Route({path: 'add-member/:id', tag: 'team-add-member'}),
+		new NotFoundRoute({path: '404', tag: 'team-notfound'})
 	]),
 	new NotFoundRoute({path: '404', tag: 'not-found'})
 ]);

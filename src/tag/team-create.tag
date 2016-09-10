@@ -1,10 +1,10 @@
-<event-create>
+<team-create>
 	<script type="babel">
 		
 	</script>
 	<style type="css">
-		event-create{
+		team-create{
 			
 		}
 	</style>
-</event-create>
+</team-create>

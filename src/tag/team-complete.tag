@@ -1,10 +1,10 @@
-<event-complete>
+<team-complete>
 	<script type="babel">
 		
 	</script>
 	<style type="css">
-		event-complete{
+		team-complete{
 			
 		}
 	</style>
-</event-complete>
+</team-complete>

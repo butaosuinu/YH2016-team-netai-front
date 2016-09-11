@@ -9,6 +9,7 @@ require('../tag/team-create.tag');
 require('../tag/team-notfound.tag');
 require('../tag/team-view.tag');
 require('../tag/not-found.tag');
+require('../tag/team-edit.tag');
 
 // routing
 require('riot-router');
@@ -25,6 +26,7 @@ riot.router.routes([
 		new Route({path: 'create', tag: 'team-create'}),
 		new Route({path: 'complete', tag: 'team-complete'}),
 		new Route({path: 'view/:id', tag: 'team-view'}),
+		new Route({path: 'edit/:id', tag: 'team-edit'}),
 		new Route({path: 'add-member/:id', tag: 'team-add-member'}),
 		new NotFoundRoute({path: '404', tag: 'team-notfound'})
 	]),

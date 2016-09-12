@@ -1,10 +1,5 @@
 <!-- var apiService = require('../js/apiService.js'); -->
 <team-create>
-	<link rel="stylesheet" href="../../maika/style.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="../../maika/reset.css" type="text/css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="shortcut icon" href="images/favicon.ico" >
 	<header>
 		<div class="header_logo">
 			<h1>SKILL GRAPH</h1>
@@ -29,10 +24,10 @@
 
 		</div>
 
-		<div class="button center">
-			<input type="submit" name="チームを作る">
+		<!-- <div class="button center">
 			<a href="#">チームを作る</a>
-		</div><!-- /.button -->
+		</div> --><!-- /.button -->
+		<button class="button center" type="submit" name="チームを作る" style="display: block; font-size: 14px; border: none">チームを作る</button>
 	</form>
 
 
